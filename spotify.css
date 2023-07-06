@@ -1,0 +1,593 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 80px;
+    width: 100%;
+  /*  border: 1px solid black;*/
+    background-color: black;
+}
+.navarticle{
+    height: 80px;
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navlogo{
+    height: 80px;
+    width: 132px;
+    border: 1px;
+    padding-top: 17px;
+}
+.navlogo svg{
+    width:142px ;
+    height: 80px ;
+    fill: #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+.navigationmenu{
+   height: 80px;
+    width: 46%;
+    /*border: 2px solid red;*/
+    padding: 30px;
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navigationbar li{
+    list-style: none;
+}
+.navigationbar li a{
+    display: inline-block;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:white;
+    cursor: pointer;
+}
+.navigationbar li a:hover{
+    color: #1ed760;
+}
+.simple{
+    color: #fff;
+    font-weight: 700;
+}
+.homesection{
+    height: 600px;
+    width: 100%;
+   /* border: 2px solid orangered;*/
+    background: url("https://www.scdn.co/i/free/bubbles-dktp.svg")
+    center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+.homearticle{
+    height: 600px;
+    width: 80%;
+   /* border: 2px solid rebeccapurple;*/
+    margin: 0 auto;
+    display: flex;
+}
+.homediv1{
+    height: 600px;
+    width: 40%;
+    /*border: 2px solid black;*/
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.homediv1 svg{
+    height: 573px;
+    width:286px;
+    position:absolute;
+}
+.homediv1 img{
+    height: 445px;
+    width: 267px;
+    position: relative;
+    top: 65px;
+    left: 9px;
+}
+.homediv2{
+    height: 600px;
+    width: 60%;
+    /*border:2px solid green*/
+    padding: 180px 15px 0px 0px;
+}
+.homediv2 h1{
+    font-size: 64px;
+    letter-spacing: -2.56px;
+    max-width: 653px;
+    padding-bottom: 32px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homediv2 button{
+    height: 47px;
+    width: 175px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    /*padding:35px 15px;*/
+    color: black;
+    font-weight:7OOpx;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px; 
+    outline: none;
+    top: -6px;
+    left: -6px;
+}
+.homediv2 button:hover{
+    border-color:  #fff;
+    transition: border-color 200ms ease-in 0s;
+}
+.display{
+    width: 100%;
+    height:490px;
+   /* border:2px solid #1ed760;*/
+    margin: auto;
+}
+.content{
+    width:85%;
+    height: 400px;
+   /* border:2px solid blue;*/
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.contenthead{
+    width:85%;
+    height: 70px;
+    /*border:2px solid #1ed760;*/
+    margin-left: 95px;
+}
+.contenthead h2{
+    text-align: center;
+    font-size: 37px;
+    font-weight: 900;
+    font-family:spotify-circular,Helvetica,Arial,sans-serif;
+}
+.typescontent{
+    width:85%;
+    height: 328px;
+   /* border:2px solid #1ed760;*/
+    margin-left: 95px;
+    list-style: none;
+    display: flex;
+}
+.typescontent li{
+    width: 40%;
+    height: 328px;
+    /*border: 2px solid black;*/
+}
+.typescontent1 img{
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 25px;
+    background-size:20px;
+    width: 194px;
+    height: 194px;
+}
+.letters h2{
+    text-align: center;
+    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;;
+    font-size: bold;
+    letter-spacing: normal;
+    font-weight: 780;
+}
+.letters p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 550;
+    padding:15px;
+    line-height: 1.8;
+    letter-spacing: 0.8px;
+    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+.smallbox{
+    width: 100%;
+    height: 470px;
+   /* border:2px solid #f306b0;*/
+    text-align: center;
+    background:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231)); 
+}
+.smallbox h2{
+    position: relative;
+    top: 200px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size: 45px;
+    font-weight: 850;
+    letter-spacing: none;
+    color: #fff;
+}
+.table{
+    width: 100%;
+    height: 567px;
+    /*border: 2px solid green;*/
+}
+.table1{
+   width: 80%;
+   height: 430px;
+   /*border: 2px solid red; */
+   margin-left: 150px;
+   margin-top: 70px;
+}
+.inhead{
+    width: 100%;
+    height: 80px;
+   /* border: 2px solid black;*/
+}
+.inhead h2{
+    text-align: center;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size:var(--headline-font-size,40px);
+    line-height: var(--headline-line-height,46px);
+    font-weight: 800;
+}
+.datas{
+    width: 100%;
+    height: 350px;
+   /* border: 2px solid green;*/
+    list-style:none;
+}
+.outdatas{
+    border-bottom-width:100px;
+    border-bottom: 1px solid rgb(214, 212, 212);
+    padding: 22px 50px;
+    font-size:15px;
+    font-family:  spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+/*.indatas{
+    text-align: -webkit-match-parent;
+    border-bottom: 1px solid rgb(246, 244, 244)
+}*/
+.indatas svg{
+    transform: rotate(180deg);
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    stroke-width: 1pt;
+    transform-origin: 0px 0px ;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    left: 97%;
+    bottom: 30px;  
+}
+.ready{
+    width: 100%;
+    height: 450px;
+    border: 1px solid greenyellow;
+    background-repeat: no-repeat;
+    background:url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224); 
+}
+.ready h2{
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size:80px ;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: white;
+    padding: 0px 100px 32px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+.buttonlast{
+    width:180px ;
+    height: 48px;
+    border: 2px solid white;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 15px;
+    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size:13px ;
+    font-weight:700 ;
+    letter-spacing: normal;
+    position: relative;
+    left: 680px;
+    top: 188px;
+}
+.buttonlast a{
+    color: #000000;
+    text-decoration: none;
+     cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 0px;
+    min-inline-size: 0px;
+    align-self: center;
+    letter-spacing: -0.02em;
+}
+
+
+.footersection{
+    height: 554px;
+    width: 100%;
+ /*   border: 2px solid darkmagenta;*/
+    background-color: #000000;
+    position: relative;
+    top: -343px;
+}
+.innerfooter{
+    height: 422px;
+    width: 75%;
+  /*  border: 2px solid blueviolet;*/
+    margin-top: 65px;
+    margin-left: 180px;
+
+    
+}
+/*.innerdiv1{
+    height: 346px;
+    width: 100%;
+    border: 2px solid red;
+}*/
+.footerdiv1{
+    height: 342px;
+    width: 170px;
+    border: 2px solid black;
+    float: left;
+    margin-top: 60px;
+}
+.footerdiv1 svg{
+    cursor: pointer;
+    text-shadow: none;
+    width:142px ;
+    height: 80px ;
+    fill: #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+.footerdiv2{
+    height: 342px;
+    width: 170px;
+  /*  border: 2px solid green;*/
+    float: left;
+    margin-top:30px;
+    padding-left: 5px;
+}
+.namma{
+    margin: 40px 18px 22px;
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-family:CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.namma1 a{
+    font-size:16 px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 3px 0 15px;
+    color: #fff;
+    line-height: 1.5;
+    display: inline-block;
+    margin: 0px 18px 10px;
+}
+.namma1 a:hover{
+    color: #1ed760;
+}
+.footerdiv3{
+    height: 342px;
+    width: 170px;
+   /* border: 2px solid violet;*/
+    float: left;
+    margin-top: 27PX;
+    padding-left: 30PX;
+}
+.footerdiv4{
+    height: 342px;
+    width: 200px;
+  /*  border: 2px solid violet;*/
+    float: left;
+    margin-top: 28PX;
+    padding-left: 35px;
+}
+.footerdiv5{
+    height: 342px;
+    width: 292px;
+  /*  border: 2px solid violet;*/
+    float: right;
+    margin-top: 27px;
+    padding-right:50px;
+
+}
+.innerdiv1{
+    height: 40px;
+    width: 100%;
+   /* border: 2px solid blue;*/
+    margin-top:342px;
+
+}
+.innerdiv1 p{
+    color: #919496;
+    position: relative;
+    top: 364px;
+    left:343px;
+}
+.innerdiv1 a{
+    font-size:15px;
+    text-decoration: none;
+    color: #919496;
+    font-weight: 400;
+
+}
+.innerdiv12 svg{
+    color: #8b8c8d!important;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin: 0 8px 0 0;
+    text-decoration: none;
+    position: relative;
+    top: 382px;
+    left: -755px;
+
+}
+.innerdiv2{
+    height: 40px;
+    width: 100%;
+   /* border: 2px solid rgb(189, 32, 132);*/
+    margin-top:px;
+}
+.fee{
+    list-style: none;
+    float: left;
+}
+.fees{
+    float: left;
+    padding: 10px;
+    position: relative;
+    top: 55px;
+    right: 330px;
+    
+}
+.fees a{
+    margin-right: px;
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+    line-height: normal;
+    letter-spacing: 0;
+    font-size: 14px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    text-decoration: none; 
+    color: #919496;
+}
+.fees a:hover{
+    color: #1ed760;
+}
+.fees svg{
+    height: 14px;
+    font-size: 16px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 8px;
+    top: 5px;
+}
+.year{
+    position: relative;
+    top: 390px;
+    left:260px;
+    font-size: 16px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #919496;
+}
+.insta{
+    height:54px ;
+    width: 54px;
+    border: 2px solid black;
+    margin: 0;
+    float: left;
+    border-radius: 27px;
+    background-color:white;
+    position: relative;
+    top: 20px;
+    left: 90px;
+    background-color: #171313;
+}
+.insta svg{
+    height: 24px;
+    width: 24px;
+    border: 1px solid black;
+    position: relative;
+    top: 12px;
+    left: 12.5px;
+    background: no-repeat;
+    display: block;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.insta svg:hover{
+    color: #1ed760;
+}
+.tiwter{
+    height:54px ;
+    width: 54px;
+    border: 2px solid black;
+    float: left;  
+    border-radius: 27px;
+    background-color:white;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    background-color: #101213;
+}
+.tiwter svg{
+    height: 24px;
+    width: 24px;
+    border: 1px solid black;
+    position: relative;
+    top: 12px;
+    left: 12.5px;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.tiwter svg:hover{
+    color: #1ed760;
+}
+.facebook{
+    height:54px ;
+    width: 54px;
+    border: 2px solid black;
+    float: left;
+    border-radius: 27px;
+    background-color:rgb(18, 15, 15);
+    position: relative;
+    top: 20px;
+    left: 110px;
+
+}
+.facebook svg{
+    height: 24px;
+    width: 24px;
+    border: 1px solid black;
+    position: relative;
+    top: 12px;
+    left: 12.5px;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.facebook svg:hover{
+    color: #1ed760;
+}
+.innerdiv1 a{
+    position: relative;
+    left: 95%;
+    font-weight: 400;
+    cursor: pointer;
+}
+.innerdiv1 a svg{
+    position: relative;
+    right: 8px;
+    font-weight: 400;
+    cursor: pointer;
+}
